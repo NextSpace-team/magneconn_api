@@ -36,5 +36,5 @@ func main() {
     api.GET("plasma/7d", handlers.GetPlasmaTemperature7Days)
 	}
 
-	r.Run(":8080")
+	r.Run()
 }
